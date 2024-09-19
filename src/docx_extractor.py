@@ -18,6 +18,7 @@ def docx_text_extractor(filepath):
           os.mkdir(new_filepath)
 
         with open(f"{new_filepath}/{filename}.txt", "w") as text_file:
+          text_file.truncate()
           for paragraph in docx_paragraphs:
             inner_texts = paragraph.xpath(".//text()")
             if len(inner_texts) == 0:

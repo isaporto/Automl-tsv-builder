@@ -14,6 +14,6 @@ def main():
       elif file.endswith('.docx'):
         docx_text_extractor(full_current_file_path)
       else:
-        print(f'File ${file} type not supported')
+        print(f'File {file} type not supported')
 
 main()

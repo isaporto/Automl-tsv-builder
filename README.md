@@ -32,8 +32,7 @@ This is the directory tree and how your files should be organized so the script 
 │   │           └── document_name_pt.txt
 │   └── text_chunks
 │       └── document_name
-│           ├── document_name_en.csv
-│           └── document_name_pt.csv
+│           └── document_name.tsv
 └── src
     ├── app.py
     ├── docx_extractor.py

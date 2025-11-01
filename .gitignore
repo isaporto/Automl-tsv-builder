@@ -1,3 +1,4 @@
 data/documents/original/*
 data/documents/extracted/*
+data/text_chunks/*
 */__pycache__

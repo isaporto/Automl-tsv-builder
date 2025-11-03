@@ -1,4 +1,7 @@
 data/documents/original/*
 data/documents/extracted/*
 data/text_chunks/*
+!data/documents/original/.gitkeep
+!data/documents/extracted/.gitkeep
+!data/text_chunks/.gitkeep
 */__pycache__

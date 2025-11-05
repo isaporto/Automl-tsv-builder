@@ -1,0 +1,11 @@
+name: "automl-tsv-builder"
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ..:/workspaces/automl-tsv-builder:cached
+      - ../.docker/zsh/powerlevel10k/.p10k.zsh:/home/vscode/.p10k.zsh:delegated
+      - ../.docker/zsh/history/.zsh_history:/home/vscode/.zsh_history:delegated
+    command: sleep infinity
